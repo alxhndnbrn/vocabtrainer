@@ -1,2 +1,2 @@
 # vocabtrainer
-first test if beginner vocabtrainer
+first test of beginner vocabtrainer
