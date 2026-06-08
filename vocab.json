@@ -1,0 +1,30 @@
+{
+  "meta": { "book": "Orange Line 1", "edition": "2022", "year": 5 },
+  "units": [
+    { "id": "wayin", "title": "Way In", "words": [
+      { "de": "eins", "en": "one", "example": "I have got one pen." },
+      { "de": "zwei", "en": "two", "example": "Two apples, please." },
+      { "de": "rot", "en": "red", "example": "The ball is red." },
+      { "de": "blau", "en": "blue", "example": "My pen is blue." },
+      { "de": "das Buch", "en": "book", "example": "Open your book." },
+      { "de": "der Stuhl", "en": "chair", "example": "Sit on the chair." }
+    ]},
+    { "id": "1", "title": "Unit 1", "words": [
+      { "de": "die Mutter", "en": "mother", "alt": ["mum"], "example": "My mother is a teacher." },
+      { "de": "der Vater", "en": "father", "alt": ["dad"], "example": "His father comes from London." },
+      { "de": "die Schwester", "en": "sister", "example": "I have got a sister." },
+      { "de": "der Bruder", "en": "brother", "example": "My brother is ten." },
+      { "de": "England", "en": "England", "example": "London is in England." },
+      { "de": "Deutschland", "en": "Germany", "example": "I come from Germany." },
+      { "de": "ich bin", "en": "I am", "alt": ["I'm"], "example": "I am eleven." },
+      { "de": "woher kommst du?", "en": "where are you from?", "example": "Where are you from?" },
+      { "de": "wie alt bist du?", "en": "how old are you?", "example": "How old are you?" },
+      { "de": "mein", "en": "my", "example": "This is my book." }
+    ]},
+    { "id": "2", "title": "Unit 2", "words": [{"de": "die Schule", "en": "school", "example": "This is my school."},{"de": "das Klassenzimmer", "en": "classroom", "example": "The classroom is big."}]},
+    { "id": "3", "title": "Unit 3", "words": [{"de": "das Hobby", "en": "hobby", "example": "My hobby is football."},{"de": "der Hund", "en": "dog", "example": "The dog barks."}]},
+    { "id": "4", "title": "Unit 4", "words": [{"de": "der Geburtstag", "en": "birthday", "example": "Happy birthday!"},{"de": "die Party", "en": "party", "example": "We have a party."}]},
+    { "id": "5", "title": "Unit 5", "words": [{"de": "das Haus", "en": "house", "example": "This is my house."},{"de": "die Straße", "en": "street", "example": "Our street is quiet."}]},
+    { "id": "6", "title": "Unit 6", "words": [{"de": "das Land", "en": "country", "example": "We go to the country."},{"de": "die Kuh", "en": "cow", "example": "The cow gives milk."}]}
+  ]
+}

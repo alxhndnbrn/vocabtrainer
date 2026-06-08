@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#42a5f5">
+  <meta name="description" content="Orange Line 1 Vokabeltrainer – Klasse 5. Spielerisch Englisch lernen mit Karteikarten, Schreibtraining, Quiz & mehr.">
+  <title>Orange Line Vokabeltrainer – Klasse 5</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="app-header">
+      <h1>🎒 Orange Line Vokabeltrainer</h1>
+      <p class="subtitle">Klasse 5 – Spielerisch Englisch lernen</p>
+    </header>
+
+    <div class="stat-bar" role="region" aria-label="Deine Statistiken">
+      <div class="stat xp"><span class="stat-icon">⭐</span> <span id="xp-value">0 XP</span></div>
+      <div class="stat streak"><span class="stat-icon">🔥</span> <span id="streak-value">0 Tage</span></div>
+    </div>
+
+    <main>
+      <section id="screen-home" class="screen active">
+        <h2 class="section-title">📚 Deine Units</h2>
+        <div class="units-grid" id="units-grid"></div>
+        <div class="badge-of-day" id="badge-of-day" hidden>
+          <div class="badge-icon">🏆</div>
+          <div class="badge-text" id="badge-text"></div>
+        </div>
+        <h2 class="section-title">🎮 Wie möchtest du heute üben?</h2>
+        <div class="modes-grid" id="modes-grid"></div>
+      </section>
+
+      <section id="screen-exercise" class="screen" hidden>
+        <header class="exercise-header">
+          <button class="back-btn" id="back-btn">← Zurück</button>
+          <h2 class="exercise-title" id="exercise-title"></h2>
+          <div class="exercise-progress"><span id="progress-current">1</span> / <span id="progress-total">10</span></div>
+        </header>
+        <div id="exercise-content"></div>
+        <div class="exercise-actions" id="exercise-actions"></div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>Lokaler Prototyp für schulisches Vokabeltraining.</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Orange Line Vokabeltrainer",
+  "short_name": "OL Vokabeln",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fdf6e3",
+  "theme_color": "#42a5f5",
+  "icons": []
+}
